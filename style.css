@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: #rgba(0,0,0,.05);
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #fb3e44;
+  }
+
+  .topnav input[type=text] {
+    background-image: url('images/magnifying-glass.png');
+    background-position: left center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 1100px;
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    color: rgba(0,0,0,.05);
+    background-color: rgba(0,0,0,.05) ;
+  }
+
+  #upperSection{
+    background-color: rgba(232,217,217,.3);
+    display: flex; 
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    height: 600px;
+    box-sizing: border-box;
+  }
+
+  #middleSection{
+    background-color: white;
+    display: flex; 
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    height: 600px;
+    box-sizing: border-box;
+  }
+  #hexagon{
+    max-width: 20%;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+
+  #
+  .seeplans{
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+    color: white;
+  }
+  
+  .npm{
+    width: 60px;
+    margin-right: 1rem;
+  }
+  .magniglass{
+    width: 25px;
+    margin-right: 1rem;
+  }
+
+  h1{
+    font-weight: 600;
+    font-size: 5rem;
+  }
+
+  h2{
+    font-weight: 500;
+    font-size: 40px;
+  }
+
+  
+  
